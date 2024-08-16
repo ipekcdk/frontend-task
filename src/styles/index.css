@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input, select, textarea {
+  transition: all 0.3s ease-in-out;
+}
+
+input:focus, select:focus, textarea:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2); 
+}
+.form-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  min-height: 100vh; 
+}
